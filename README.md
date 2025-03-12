@@ -22,3 +22,7 @@ Você pode adicionar nomes, sortear aleatoriamente e reiniciar o processo sempre
 4 - Clique em "Sortear amigo" para escolher um participante aleatoriamente.
 
 5 - Clique em "Novo Sorteio" para limpar a lista e começar novamente.
+
+
+**Criado por:**
+Matheus Fidelis de Almeida
