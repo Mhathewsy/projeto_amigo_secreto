@@ -1,0 +1,151 @@
+:root {
+    --color-primary: #6170de;
+    --color-secondary: #020093;
+    --color-tertiary: #000403;
+    --color-button: #EF476F;
+    --color-button-hover: #D43F64;
+    --color-text: #ffffff;
+    --color-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Seção de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-secondary);
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.main-title {
+    font-size: 48px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    color: var(--color-white);
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--color-white);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Entrada de texto */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Botões */
+.button-container {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Espaço entre o ícone e o texto */
+}
+
+.button-add {
+    background-color: var(--color-tertiary);
+    color: var(--color-white);
+}
+
+.button-add:hover {
+    background-color: #05A37B;
+}
+
+.button-draw {
+    background-color: var(--color-button);
+    color: var(--color-white);
+}
+
+.button-draw:hover {
+    background-color: var(--color-button-hover);
+}
+
+.button-reset {
+    background-color: #118AB2;
+    color: var(--color-white);
+}
+
+.button-reset:hover {
+    background-color: #0F6E9C;
+}
+
+.button-reset img, 
+.button-draw img {
+    width: 24px; /* Define o tamanho do ícone */
+    height: 24px;
+}
+
+/* Lista */
+.name-list {
+    list-style-type: none;
+    font-size: 18px;
+    color: var(--color-text);
+    margin: 20px 0;
+}
+
+.result-list {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--color-button);
+    margin-top: 15px;
+    text-align: center;
+}
