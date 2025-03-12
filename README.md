@@ -24,5 +24,13 @@ Você pode adicionar nomes, sortear aleatoriamente e reiniciar o processo sempre
 5 - Clique em "Novo Sorteio" para limpar a lista e começar novamente.
 
 
+**Ferramentas**
+
+- HTML
+- CSS
+- JavaScript
+
+
 **Criado por:**
+
 Matheus Fidelis de Almeida
